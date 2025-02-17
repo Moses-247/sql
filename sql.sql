@@ -35,3 +35,8 @@ INSERT INTO Product (Product_id, Product_Name, Price, Category) VALUES
 ('P001', 'Laptop', 15000.00, 'Electronics'),
 ('P002', 'Tablet', 7000.00, 'Electronics'),
 ('P003', 'Chair', 8500.00, 'Furniture');
+
+DESCRIBE Customer;
+DESCRIBE Product;
+DESCRIBE Orders;
+
