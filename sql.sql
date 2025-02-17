@@ -36,6 +36,12 @@ INSERT INTO Product (Product_id, Product_Name, Price, Category) VALUES
 ('P002', 'Tablet', 7000.00, 'Electronics'),
 ('P003', 'Chair', 8500.00, 'Furniture');
 
+INSERT INTO Orders (Customer_id, Product_id, Quantity, Total_amount, OrderDate) VALUES
+('C001', 'P001', 1, 1500.00, CURDATE()),
+('C002', 'P002', 2, 1400.00, CURDATE()),
+('C003', 'P003', 4, 340.00, CURDATE());
+
+
 DESCRIBE Customer;
 DESCRIBE Product;
 DESCRIBE Orders;
