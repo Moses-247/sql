@@ -43,6 +43,8 @@ INSERT INTO Orders (Customer_id, Product_id, Quantity, Total_amount, OrderDate) 
 
 
 DESCRIBE Customer;
+
 DESCRIBE Product;
+
 DESCRIBE Orders;
 
